@@ -52,44 +52,7 @@ The trained model is evaluated using:
 - Mean Absolute Error (MAE)
 - R² Score
 
-## Project Structure
 
-HabitLens/
-├── app/
-│   ├── main.py
-│   ├── database.py
-│   ├── models.py
-│   └── analytics.py
-├── analytics/
-│   └── analysis.py
-├── dashboard.py
-├── ml_model.py
-├── create_tables.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-## How It Works
-
-User
-↓
-Streamlit Dashboard
-↓
-FastAPI
-↓
-MySQL Database
-
-For productivity prediction:
-
-User habits
-↓
-Streamlit
-↓
-FastAPI
-↓
-Random Forest Model
-↓
-Predicted Productivity Score
 
 ## How to Run
 
